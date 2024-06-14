@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tic Tac Toe</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/45743c6752.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  <main>
+    <div class="title-cont">
+      <h1 id="title-text">Tic Tac Toe</h1>
+      <p>Never waste your time drawing a board again.</p>
+    </div>
+    <div id="winner-box" class="winner">
+      <h1 id="winner-text">Player 1 Wins!</h1>
+      <button id="replay-btn" class="replay-btn" onclick="location.reload()">Replay</button>
+    </div>
+    <div id="player-box">
+      <p id="current-player">Player: <b><span id="player-num">1</span></b></p>
+    </div>
+    <div class="game-box">
+
+      <div class="box">
+        <i id="icon1" class="icon"></i>
+      </div>
+      <div class="box">
+        <i id="icon2" class="icon"></i>
+      </div>
+      <div class="box">
+        <i id="icon3" class="icon"></i>
+      </div>
+      <div class="box">
+        <i id="icon4" class="icon"></i>
+      </div>
+      <div class="box">
+        <i id="icon5" class="icon"></i>
+      </div>
+      <div class="box">
+        <i id="icon6" class="icon"></i>
+      </div>
+      <div class="box">
+        <i id="icon7" class="icon"></i>
+      </div>
+      <div class="box">
+        <i id="icon8" class="icon"></i>
+      </div>
+      <div class="box">
+        <i id="icon9" class="icon"></i>
+      </div>
+    </div>
+    </br></br></br></br></br></br></br></br>
+    <div class="reset-cont">
+      <button id="replay-btn" class="reset" onclick="location.reload()">Reset</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -185,7 +185,7 @@ i {
   gap: 30px;
   align-items: center;
   backdrop-filter: blur(10px);
-  -webkit-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   transition: opacity 1.5s ease-out;
 }
 
@@ -198,7 +198,7 @@ i {
 #winner-text {
   text-align: center;
   color: whitesmoke;
-  font-size: 80px;
+  font-size: min(10vw, 80px);
 }
 
 
@@ -214,7 +214,7 @@ i {
   background: linear-gradient(90deg, #8a6693, #e5718e);
   border-radius: 10px;
   color: whitesmoke;
-  font-size: 2em;
+  font-size: min(5vw, 2em);
   transition: .3s ease;
   box-shadow: 0 5px 5px rgb(0, 0, 0, .4);
 }
